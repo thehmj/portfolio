@@ -63,7 +63,7 @@ body {
 .home {
     width: 100%;
     min-height: 100vh;
-    background-image: url(./Images/programmer.png);
+    background-image: url( './Images/programmer.png');
     background-size: 30vw;
     background-repeat: no-repeat;
     background-position: right;
@@ -90,7 +90,7 @@ body {
 
 /* ------------about----------- */
 .about {
-    background-image: url(/man.png);
+    background-image: url('./Images/man.png');
     min-height: 100vh;
     background-size: auto;
     background-repeat: no-repeat;
@@ -240,7 +240,7 @@ min-height: 100vh;
 }
 .Skills{
     min-height: 100vh;
-    background-image: url(/coder.png);
+    background-image: url('./Images/coder.png');
     /* min-height: 100vh; */
     background-repeat: no-repeat;
     background-position: right;

@@ -63,7 +63,7 @@ body {
 .home {
     width: 100%;
     min-height: 100vh;
-    background-image: url(/programmer.png);
+    background-image: url(/Images/programmer.png);
     background-size: 30vw;
     background-repeat: no-repeat;
     background-position: right;

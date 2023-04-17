@@ -260,14 +260,14 @@ flex-wrap: wrap;
 .skillicon2 {
  background-color: white;
  /* padding: 1rem; */
- -webkit-mask: url(/icons/express-original-wordmark.svg) no-repeat center;
- mask: url(/icons/express-original-wordmark.svg) no-repeat center;
+ -webkit-mask: url('./icons/express-original-wordmark.svg') no-repeat center;
+ mask: url('./icons/express-original-wordmark.svg') no-repeat center;
 
 }
 .github{
 background-color: white;
- -webkit-mask: url(/icons/github-original.svg) no-repeat center ; 
- mask: url(/icons/github-original.svg) no-repeat center;
+ -webkit-mask: url('./icons/github-original.svg') no-repeat center ; 
+ mask: url('./icons/github-original.svg') no-repeat center;
 
 }
 

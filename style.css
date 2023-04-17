@@ -414,11 +414,9 @@ iframe{
         width: 100%;
        
     }
-    .Skills{
-        /* background-image: none; */
-    }
     .skillbox{
-        /* width: /0%; */
+        width: 80%;
+        margin-left:0 ;
     }
 }
 @media (max-width:550px) {
@@ -426,9 +424,9 @@ iframe{
     html{
         font-size: 40%;
     }
-    /* nav{
-        height: 7rem;
-    } */
+    nav{
+        height: 6rem;
+    }
     .about,.Education,.projects, .Contact,.Skills{
        min-height: 20vh !important;
     }
@@ -451,7 +449,7 @@ iframe{
     }
     .Skills{
         background-image: none;
-    }
+    }   
     .skillbox{
         width: 80%;
         margin-left:0 ;

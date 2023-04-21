@@ -21,6 +21,7 @@ body {
     position: fixed;
     /* background-color: aliceblue; */
     background-color: rgba(14, 12, 12, 0.503);
+    z-index: 10;
 
 }
 
@@ -91,7 +92,7 @@ body {
 /* ------------about----------- */
 .about {
     background-image: url('./Images/man.png');
-    min-height: 100vh;
+    /* min-height: 100vh; */
     background-size: auto;
     background-repeat: no-repeat;
     background-position: left;
@@ -171,6 +172,7 @@ body {
     overflow: hidden;
     cursor: pointer;
     transition: transform 0.5s;
+    z-index: -1;
 
 }
 
@@ -203,6 +205,9 @@ body {
 .Education{
 min-height: 100vh;
 
+}
+.Education .container{
+    padding: 1rem 0;
 }
 .Educationbox {
     padding: 5rem;

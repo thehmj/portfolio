@@ -18,7 +18,7 @@ document.getElementById('hideform').addEventListener("click", function(event){
 var allcards = document.querySelectorAll('.wrapper img');
 
 const carousel = document.querySelector('.projectbox');
-const fristone = carousel.querySelectorAll('div')[0].clientWidth -14;
+const fristone = carousel.querySelectorAll('div')[0].clientWidth +1 ;
 console.log(fristone);
 allcards.forEach(icon=>{
     icon.addEventListener("click",()=>{

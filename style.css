@@ -398,7 +398,37 @@ iframe{
     background-color: white;
     /* padding: 1rem; */
 }
+.contact-fixed{
+    position:fixed;
+    right: 0;
+    bottom: 0;
+    width: 10%;
+    height: 10%;
+    aspect-ratio: 1;
+    margin: 1%;
+    border-radius: 50%;
+    background-color: rgba(9, 1, 1, 0);
+    overflow: hidden;
+    z-index: 10;
+}
+.contact-fixed img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+.msg{
+    display: none;
+    position: fixed;
+    left: 0;
+    top: 0;
+    margin: 10vh 10vw;
+    z-index: 10;
 
+}
+.msg iframe{
+    height: 80vh;
+    width: 80vw;
+}
 
 @media (max-width:820px) {
  

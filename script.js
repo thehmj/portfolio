@@ -1,4 +1,5 @@
 var form = document.getElementById('contact_Right');
+var msg = document.getElementById('msg');
 
 document.getElementById('hideform').addEventListener("click", function(event){
     event.preventDefault();
@@ -9,6 +10,17 @@ document.getElementById('hideform').addEventListener("click", function(event){
     else{
         form.style.display = "block";
         document.getElementById('hideform').innerText = "Close Form";
+    }
+
+  });
+
+document.getElementById('contact-fixed').addEventListener("click", function(event){
+    event.preventDefault();
+    if (msg.style.display == "block") {       
+        msg.style.display = "none";
+    }
+    else{
+        msg.style.display = "block";
     }
 
   });

@@ -395,7 +395,7 @@ object-position: center;
 iframe{
     height:60vh;
     width: 100%;
-    background-color: white;
+    background-color: rgb(140, 117, 232);
     /* padding: 1rem; */
 }
 .contact-fixed{

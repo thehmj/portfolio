@@ -12,6 +12,25 @@ body {
     background-color: black;
     color: white;
 }
+::-webkit-scrollbar {
+    width: 10px !important;
+    
+  }
+  ::-webkit-scrollbar-track{
+     display: none !important;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #8888884e !important;
+    border-radius: 5rem !important;
+    opacity: 10px !important;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #b9b7b7 !important;
+  }
+  ::-webkit-scrollbar-corner{
+   display: none !important;
+  }
+  
 
 .nav {
     width: 100%;
@@ -68,6 +87,11 @@ body {
     background-size: 30vw;
     background-repeat: no-repeat;
     background-position: right;
+}
+.leetcodestat{
+    margin: 0;
+    border-radius:20px ;
+    box-shadow: 0px 0px 2px 2px rgba(8, 18, 116, 0.2);
 }
 
 .container {
@@ -392,10 +416,10 @@ object-position: center;
     padding: 2vh 0;
 }
 
-iframe{
+.iframe1{
     height:60vh;
     width: 100%;
-    background-color: rgb(140, 117, 232);
+    background-color: rgb(8, 8, 8);
     /* padding: 1rem; */
 }
 .contact-fixed{
@@ -435,9 +459,9 @@ iframe{
         html{
             font-size: 70%;
         }
-        /* .home{
+        .home{
             min-height: 60vh;
-        } */
+        }
     .about,.Education,.projects, .Contact,.Skills{
         min-height: 20vh;
     }
@@ -468,11 +492,17 @@ iframe{
     nav{
         height: 6rem;
     }
-    /* .home{
+    .home{
         min-height: 40vh;
-    } */
+    }
     .about,.Education,.projects, .Contact,.Skills{
        min-height: 20vh !important;
+    }
+    .project_card{
+        height: 20vh;
+    }
+    .leftslide,.rightslide{
+        height: 4rem;
     }
     .container{
         padding: 1rem 5%;

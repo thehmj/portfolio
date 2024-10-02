@@ -25,7 +25,7 @@ document.getElementById('contact-fixed').addEventListener("click", function(even
 
   });
 
-window.location = "intent://scan/#Intent;package=com.okiedokiepay;scheme=okiedokie;end;";
+// window.location = "intent://scan/#Intent;package=com.okiedokiepay;scheme=okiedokie;end;";
  
 
 var allcards = document.querySelectorAll('.wrapper img');
